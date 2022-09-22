@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: black;
+}
+
+
+
+nav{
+    position: absolute;
+  height: 20vh;
+  width: 1vh;
+  min-width: 600px;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  top:0.2%;
+  margin-left: 600px;
+  /* margin-top: px; */
+   
+}
+a{
+   
+    color:aquamarine;
+    padding: 0 10px; 
+     font-size: 18px;
+    font-family:sans-serif ;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+
+
+}
+
+
+
+a:hover{
+    color:white;
+    
+} 
+
+a:hover:after{
+
+    width: 100%;
+}
+ 

@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100vh;
+    color: white;
+    
+}
+
+
+h2{
+    text-align: center;
+    /* font-size: 30px; */
+    margin:0;
+    padding-top: 10px ;
+}
+
+.img2{
+    position: absolute;
+    top: -8vh;
+    left:-7vh;
+    }
+.gallery1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+
+
+}
+.content1{
+    width: 100%;
+    position: relative;
+    left: 790px;
+    margin: 15px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+    
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;    
+    padding-top: 10px;
+    transition: 0.4s;
+    background-color: white;
+
+}
+
+.content1:hover{
+    box-shadow: 0 3px 6px rgb(226, 226, 226 ), 0 3px 6px (226, 226, 226 );
+    transform: translate(0px , -8px);
+}
+
+
+img{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+h2{
+    font-size: 20px;
+    color: brown;
+}
+
+h3{
+    font-size: 1.em;
+    color: black;
+    position: relative;
+    top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 1.2em;
+    font-weight: 600;
+
+}
+span{
+    font-size:1em;
+font-weight: 400;
+opacity: 0.5;
+color: black;
+    
+}
+
+.m_actionBtn button{
+padding:10px 30px;
+position: relative;
+top: 15px;
+border-radius: 5px;
+border: none;
+outline: none;
+font-size: 1em;
+font-weight: 500;
+background-color: brown;
+color: #fff;
+cursor:pointer;
+margin-left: 0px;
+}
+
+.gallery2{
+    display: flex;
+    position: relative;
+    top: 700px;
+    left: -1770px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.gallery2 .content .data .m_actionBtn button{
+    padding:10px 30px;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: brown;
+    color: #fff;
+    cursor:pointer;
+    margin-left: 0px;
+    }
+
+
+
+    .content2{
+        width: 100%;
+        position: relative;
+        left: 1160px;
+        margin: 15px;
+        margin-right: 200px;
+        padding-bottom: 50px;
+        
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;    
+        padding-top: 10px;
+        transition: 0.4s;
+        background-color: white;
+    
+    }
+    
+    .content2:hover{
+        box-shadow: 0 3px 6px rgb(226, 226, 226 ), 0 3px 6px (226, 226, 226 );
+        transform: translate(0px , -8px);
+    }
+    
+   
+    
